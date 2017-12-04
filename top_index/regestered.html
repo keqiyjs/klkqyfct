@@ -1,0 +1,78 @@
+﻿<!Doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <title>注册新账户-科里科气</title>
+    <meta name="keywords" content="科里科气，科气研究所，中国科学技术大学，中科大，现代软件工程">
+    <meta name="description" content="Page prototype v1.0.2" />
+    <meta name="author" content="USTC Modern Software Engineering KLKQYFCT">
+    <meta name="revised" content="Bowen Jiang, 11/14/17">
+</head>
+<body background="../images/background.jpg">
+    <script type="text/javascript" src="../js/regestered.js"></script>
+    <div id="header">
+        <div class="top_title_left">
+            <img src="../images/teamname.jpg" class="teamname">
+        </div>
+        <div class="top_title_fast_link_right">
+            <pre><a id="account_remember_login_state_welcome" class="white"></a>    <a id="login_or_exit" href="../index.html" class="white">登录</a>    <a href="../self_study/home_page.html" class="white">首页</a>    <a href="regestered.html" class="white">注册</a>    <a href="help.html" class="white">帮助</a>    <a href="contect_us.html" class="white">联系我们</a></pre>
+        </div>
+        <hr />
+    </div>
+    <br /><br /><br /><br /><br />
+    <div>
+        <div class="up_title_sup">
+            <b>注册新用户</b>
+        </div>
+        <hr />
+    </div>
+    <br /><br />
+    <div class="login" border="1">
+        <div class="login_text">
+            <br />
+            <br />
+            <form id="regesteredForm" action="../php/regestered.php" onsubmit="return goToLoginFromRegestered()" method="post">               
+                    账号：
+                    <input name="account" id="account" class="suitheight" type="text" placeholder="请输入6-16位字符" size="20" maxlength="16" onclick="check_info()">
+                    <span id="account_warning"></span>
+                <br /><br />
+                    密码：
+                    <input name="password" id="password" class="suitheight" type="password" placeholder="请输入6-16位字符" size="20" maxlength="16" onclick="check_info()">
+                    <span id="password_warning"></span>
+                <br /><br />
+                    确认密码：
+                    <input name="confirmPassword" id="confirmPassword" class="suitheight" type="password" placeholder="请确认密码" size="20" maxlength="16" onclick="check_info()">
+                    <span id="confirmPassword_warning"></span>
+                <br /><br />
+                    昵称：
+                    <input name="nickname" id="nickname" class="suitheight" type="text" placeholder="请输入6-16位字符" size="20" maxlength="16" onclick="check_info()">
+                    <span id="nickname_warning"></span>
+                <br /><br />
+                    手机号码：
+                    <input name="cellphoneNumber" id="cellphoneNumber" class="suitheight" type="number" placeholder="请输入手机号码" size="20" maxlength="11" onclick="check_info()">
+                    <span id="cellphoneNumber_warning"></span>
+                <br /><br />
+                    科大邮箱：
+                    <input name="ustcEmail" id="ustcEmail" class="suitheight" type="text" placeholder="@mail.ustc.edu.cn" size="20" maxlength="30" onclick="check_info()">
+                    <span id="ustcEmail_warning"></span>
+                <br /><br />
+                    验证码：
+                    <input name="verificationCode" id="verificationCode" class="suitheight" type="text" placeholder="不区分大小写（请输入klkq）" size="20" maxlength="4" onclick="check_info()">
+                    <span id="verificationCode_warning"></span>
+
+                <button class="suit_text_small ten_words">请直接输入klkq（功能暂未实现）</button>
+                <br />
+                <br />
+                <input type='submit' class="suit_text two_words" value="注册">
+                <br /><br /><br /><br />
+            </form>
+        </div>
+    </div>
+    <br /><br /><br /><br /><br /><br />  
+    <div id="footer">
+        <p>联系我们：<a href="http://www.cnblogs.com/klkqyfct/" class="white">http://www.cnblogs.com/klkqyfct/</a></p>
+    </div>
+
+
+</body>
+</html>

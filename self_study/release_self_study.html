@@ -1,0 +1,81 @@
+﻿<!Doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <title>主页-已有自习列表-科气研究所</title>
+    <meta name="keywords" content="科里科气，科气研究所，中国科学技术大学，中科大，现代软件工程">
+    <meta name="description" content="Page prototype v1.0.2" />
+    <meta name="author" content="USTC Modern Software Engineering KLKQYFCT">
+    <meta name="revised" content="Bowen Jiang, 11/14/17">
+</head>
+<body background="../images/background.jpg">
+    <script type="text/javascript" src="../js/release_self_study.js"></script>
+    <div id="header">
+        <div class="top_title_left">
+            <img src="../images/teamname.jpg" class="teamname">
+        </div>
+        <div class="top_title_fast_link_right">
+            <pre><a id="account_remember_login_state_welcome" class="white"></a>    <a id="login_or_exit" href="../index.html" class="white">登录</a>    <a href="home_page.html" class="white">首页</a>    <a href="../top_index/regestered.html" class="white">注册</a>    <a href="../top_index/help.html" class="white">帮助</a>    <a href="../top_index/contect_us.html" class="white">联系我们</a></pre>
+        </div>
+        <hr />
+    </div>
+    <br /><br /><br /><br /><br />
+    <div>
+        <div class="up_title_sup">
+            <b>发布我的自习</b>
+        </div>
+        <hr />
+    </div>
+    <br /><br /><br />
+    <div class="release_self_stuy">
+        <div class="login_text">
+            <form id="release_self_study_Form" action="../php/release_self_study_write.php" onsubmit="return goToLoginFromReleaseSelfStudy()" method="post">
+                <br />
+                <b class="turn_left">必填信息</b>
+                <br /><br />
+                <b>账号：</b>
+                <input name="account" id="account" class="suitheight" type="text" readonly="readonly" placeholder="填写过后不可修改" size="20" maxlength="18" onclick="check_info_improve_information()" />
+                <input name="hiddenAccount" id="hiddenAccount" type="hidden" />
+                <br />
+                <b>自习时间段：</b>
+                <input name="selfStudyTime" id="selfStudyTime" class="suitheight" type="text" placeholder="格式:2017-11-29 20:30" size="20" maxlength="30">
+                <span id="selfStudyTime_warning"></span>
+                <br />
+                <b>&emsp;自习地点：</b>
+                <select name="selfStudyLocation" id="selfStudyLocation" style="font-family:Verdana, Arial, Helvetica, sans-serif;">
+                    <option value="东区图书馆">东区图书馆</option>
+                    <option value="第五教学楼">第五教学楼</option>
+                    <option value="第二教学楼">第二教学楼</option>
+                    <option value="第一教学楼">第一教学楼</option>
+                    <option value="西区图书馆">西区图书馆</option>
+                    <option value="第三教学楼">第三教学楼</option>
+                </select>
+                <span id="selfStudyLocation_warning"></span>
+                <br />
+                <br />
+                <b class="turn_left">选填信息</b>
+                <br /><br />
+                <b>自习科目：</b>
+                <input name="selfStudySubject" id="selfStudySubject" class="suitheight" type="text" placeholder="" size="20" maxlength="18">
+                <span id="selfStudySubject_warning"></span>
+                <br />
+                <b>理由陈述：&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;</b>
+                <br />
+                <textarea name="reasonStatement" id="reasonStatement" placeholder="请简单陈述您的自习理由" rows="5" cols="40"></textarea>
+                <span id="reasonStatement_warning"></span>
+                <br />
+                <b>&emsp;朋友圈：&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</b>
+                <input id="friendsSircle" type="checkbox" checked="checked">
+                <br /><br /><br />
+                <button class="suit_text two_words"  type='submit'>确认</button>
+                <button class="suit_text two_words" onclick="history.back()">返回</button>
+                <br /><br />
+            </form>
+        </div>
+    </div>
+    <br /><br />
+    <div id="footer">
+        <p>联系我们：<a href="http://www.cnblogs.com/klkqyfct/" class="white">http://www.cnblogs.com/klkqyfct/</a></p>
+    </div>
+</body>
+</html>

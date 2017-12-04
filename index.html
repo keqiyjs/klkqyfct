@@ -1,0 +1,66 @@
+﻿<!Doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>科里科气-科气研究所</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="科里科气，科气研究所，中国科学技术大学，中科大，现代软件工程">
+        <meta name="description" content="Page prototype v1.0.2" />
+        <meta name="author" content="USTC Modern Software Engineering KLKQYFCT">
+        <meta name="revised" content="Bowen Jiang, 11/14/17">
+    </head>
+    <body background="images/background.jpg">
+        <script type="text/javascript" src="js/login.js"></script>
+        <script type="text/javascript" src="js/checkAccount.js"></script>
+        <div id="header">
+            <div class="top_title_left">
+                <img src="images/teamname.jpg" class="teamname">  
+            </div>
+            <div class="top_title_fast_link_right">
+                <pre><a id="login_or_exit" href="index.html" class="white">登录</a>    <a href="self_study/home_page.html" class="white">首页</a>    <a href="top_index/regestered.html" class="white">注册</a>    <a href="top_index/help.html" class="white">帮助</a>    <a href="top_index/contect_us.html" class="white">联系我们</a></pre>
+            </div>
+            <hr />
+        </div>
+        <br /><br /><br /><br /><br />
+        <div>
+            <div class="up_title">
+                <b>科里科气</b>
+            </div>
+            <hr />
+            <div class="up_title_sup">
+                <b>少年！今天你约自习了吗！</b>
+            </div>
+        </div>
+
+        <br /><br /><br /><br />
+        <div  class="login">
+            <div class="login_title">
+                <p class="center">用户登录</p>
+            </div>
+            <div class="login_text">
+                <form id="loginForm" action="/klkqyfct/php/checkAccountPassword.php" method="post">
+                    <b>账号：</b>
+                    <input name="account" id="account" onchange="checkAccount('account', 'accountWarning', 'checkAccount.php', this.value)"  class ="suitheight" type="text" placeholder="请输入账号" size="22" maxlength="16"><br />
+                    <b id="accountWarning"></b>
+                    <br /><br />
+                    <b>密码：</b>
+                    <input name="password" id="password" class="suitheight" type="password" placeholder="请输入密码" size="22" maxlength="16">
+                    <b id="passwordWarning"></b>
+                    <br />
+                    <label><input id="remember" type="checkbox">记住密码</label>
+                    <br />
+                    <pre><a href="top_index/regestered.html" class="middle">注册账号</a>          <a href="top_index/forget_password.html" class="middle">找回密码</a></pre>
+                    <br />
+
+                    <input id="login_button" type='submit' class="suit_text two_words" value="登录">
+                    <br />
+                    <br />
+                </form>
+            </div>
+        </div>
+        <br /><br /><br /><br />
+        <div id="footer">
+            <p>联系我们：<a href="http://www.cnblogs.com/klkqyfct/" class="white">http://www.cnblogs.com/klkqyfct/</a></p>
+        </div>
+    </body>
+</html>

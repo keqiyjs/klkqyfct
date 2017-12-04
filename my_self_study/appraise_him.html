@@ -1,0 +1,97 @@
+﻿<!Doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <title>主页-已有自习列表-科气研究所</title>
+    <meta name="keywords" content="科里科气，科气研究所，中国科学技术大学，中科大，现代软件工程">
+    <meta name="description" content="Page prototype v1.0.2" />
+    <meta name="author" content="USTC Modern Software Engineering KLKQYFCT">
+    <meta name="revised" content="Bowen Jiang, 11/14/17">
+</head>
+<body background="../images/background.jpg">
+    <script type="text/javascript" src="../js/check_Login.js"></script>
+    <script type="text/javascript" src="../js/see_more.js"></script>
+    <div id="header">
+        <div class="top_title_left">
+            <img src="../images/teamname.jpg" class="teamname">
+        </div>
+        <div class="top_title_fast_link_right">
+            <pre><a id="account_remember_login_state_welcome" class="white"></a>    <a id="login_or_exit" href="../index.html" class="white">登录</a>    <a href="../self_study/home_page.html" class="white">首页</a>    <a href="../top_index/regestered.html" class="white">注册</a>    <a href="../top_index/help.html" class="white">帮助</a>    <a href="../top_index/contect_us.html" class="white">联系我们</a></pre>
+        </div>
+        <hr />
+    </div>
+    <br /><br /><br /><br /><br />
+    <div>     
+        <div class="up_title_sup">
+            <b>我已完成的自习----评价他</b>
+        </div>
+        <hr />
+    </div>
+    <br /><br /><br />
+    <div class="suit_table">
+        <div>
+            <img src="../images/blankphoto.jpg" class="photo" />
+        </div>
+        <br />
+        <div class="self_study_message_left">
+            <b>昵称：</b><b>妮珂</b><br /><br />
+            <b>性别：</b><b>女</b><br /><br />
+            <b>学院：</b><b>信息科学与技术学院</b><br /><br />
+            <b>科气：</b><b>98</b><br /><br />
+        </div>
+        <div class="self_study_message_right">
+            <b>时间：</b><b>2017.11.20 18:00-23:00</b><br /><br />
+            <b>地点：</b><b>西区图书馆</b><br /><br />
+            <b>年级：</b><b>大三</b><br /><br />
+        </div>
+        <div class="self_study_button_right">
+            <button class="seven_words suit_text_small" onclick="window.location.href=('../self_study/know_more_information.html')">了解Ta的更多信息</button>
+        </div>
+        <br /><br /><br /><br /><br /><br /><br />
+        <div>
+            <br /><br />
+            <hr />
+            <br /><br />
+            <div class="appraise_impression">
+                <b>好友印象：</b>
+                <br /> <br />
+                <b class="appraise_impression_text">学霸（5）</b> &emsp; <b class="appraise_impression_text">认真（4）</b>&emsp;<b class="appraise_impression_text">男神（2）</b> &emsp; <b class="appraise_impression_text">暖男（1）</b>
+                <br /><br />
+                <b>添加新印象：</b>
+                <br /><br />
+                <b class="appraise_impression_text">学霸</b>
+                <br /><br /><br /><br />
+            </div>
+            <div class="appraise_star">
+                <b>他的综合评分：</b><br />
+                <img id="his_star_1" src="../images/star_bright.png" class="star" />
+                <img id="his_star_2" src="../images/star_bright.png" class="star" />
+                <img id="his_star_3" src="../images/star_bright.png" class="star" />
+                <img id="his_star_4" src="../images/star_bright.png" class="star" />
+                <img id="his_star_5" src="../images/star_bright.png" class="star" />
+                <br /><br />
+                <b>我对他的评分(可修改)：</b><br />
+                <img id="my_star_1" onclick="change_star(1)" src="../images/star_bright.png" class="star" />
+                <img id="my_star_2" onclick="change_star(2)" src="../images/star_bright.png" class="star" />
+                <img id="my_star_3" onclick="change_star(3)" src="../images/star_bright.png" class="star" />
+                <img id="my_star_4" onclick="change_star(4)" src="../images/star_bright.png" class="star" />
+                <img id="my_star_5" onclick="change_star(5)" src="../images/star_bright.png" class="star" />
+
+            </div>
+            <br /><br />
+            <div class="self_study_button_bottom">
+                <button class="two_words suit_text" onclick="history.back()">返回</button>
+            </div>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br />
+        </div>
+    </div>
+    <br /><br />
+    <div class="change_page">
+        <p><a href="">首页</a> <a href="">前一页</a> <a href="">1</a> <a href="">2</a> <a href="">3</a> <a href="">4</a> <a href="">5</a> ... <a href="">下一页</a>  <a href="">尾页</a></p>
+    </div>
+    <br /><br />
+    <div id="footer">
+        <p>联系我们：<a href="http://www.cnblogs.com/klkqyfct/" class="white">http://www.cnblogs.com/klkqyfct/</a></p>
+    </div>
+</body>
+</html>

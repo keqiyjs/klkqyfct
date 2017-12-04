@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<!-- information of self study -->
+<self_study>
+  <student category="student1">
+    <nickname>姓名1</nickname>
+    <sex>性别1</sex>
+    <department>学院1</department>
+    <keqi>科气1</keqi>
+    <studytime>时间段1</studytime>
+    <studylocation>地点1</studylocation>
+    <grade>年级1</grade>
+  </student>
+  <student category="student2">
+    <nickname>姓名2</nickname>
+    <sex>性别2</sex>
+    <department>学院2</department>
+    <keqi>科气2</keqi>
+    <studytime>时间段2</studytime>
+    <studylocation>地点2</studylocation>
+    <grade>年级2</grade>
+  </student>
+  <student category="student3">
+    <nickname>姓名3</nickname>
+    <sex>性别3</sex>
+    <department>学院3</department>
+    <keqi>科气3</keqi>
+    <studytime>时间段3</studytime>
+    <studylocation>地点3</studylocation>
+    <grade>年级3</grade>
+  </student>
+</self_study>

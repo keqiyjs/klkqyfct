@@ -1,0 +1,294 @@
+﻿a {
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 1em;
+    vertical-align: middle;
+    font-weight: normal;
+    color: black;
+}
+a.white {    
+    color:aliceblue;
+}
+p {
+    font-family: Arial;
+}
+
+
+b {
+    font-family: Arial;
+}
+b.appraise_impression_text{
+    background-color:burlywood;
+}
+
+.login {
+    background-color: white;
+    padding: 1cm;
+    margin: 0px auto;
+    width: 700px;
+    height: 400px;
+}
+.suit_table {
+    background-color:white;
+    padding: 1cm;
+    margin: 0px auto;
+    width: 70%;
+    height: 100%;
+}
+.improve_information {
+    background-color: white;
+    padding: 1cm;
+    margin: 0px auto;
+    width: 600px;
+    height: 800px;
+}
+.simple_self_study {
+    background-color: white;
+    padding: 1cm;
+    display: none;
+    margin: 10px auto;
+    width: 1300px;
+    height: 100%;
+}
+.more_information_self_study {
+    background-color: white;
+    padding: 1cm;
+    display: none;
+    margin: 10px auto;
+    width: 1300px;
+    height: 100%;
+}
+.release_self_stuy {
+    background-color: white;
+    padding: 1cm;
+    margin: 0px auto;
+    width: 600px;
+    height: 100%;
+}
+
+img.teamname {
+    width: 160px;
+    height: 62px;
+}
+
+img.photo{
+    position: relative;
+    left: 5%;
+    top: 20px;
+    float: left;
+    width: 30%;
+    width: 150px;
+    height: 150px;
+}
+
+input.suitheight{
+    height: 25px;
+
+}
+
+input.two_words {
+    width: 80px;
+    height: 40px;
+}
+
+button.two_words{
+    width: 80px;
+    height: 40px;
+}
+button.seven_words {
+    width: 190px;
+    height: 30px;
+}
+button.ten_words {
+    width: 180px;
+    height: 30px;
+}
+
+img.star{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+#header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+#footer {
+    background-color: black;
+    bottom: 0px;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+.middle {
+    position: center;
+}
+
+
+.top_title_left{
+    text-align: left;
+    color: black;
+    letter-spacing: 40px;
+    text-indent: 1cm;
+    font-size: 40px;
+}
+
+.top_title_fast_link_right{
+    position: fixed;
+    top: 20px;
+    right: 5px;
+    text-align: right;
+    color: black;
+    font-size: 20px;
+}
+
+.up_title {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 60px;
+}
+
+.up_title_sup {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+.login_title{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+.login_text {
+
+    text-align: center;
+    font-size: 21px;
+    color: black;
+}
+
+.tab{
+    position: relative;
+    left: 50px;
+}
+
+.suit_text {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.suit_text_small {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.left10 {
+    position: relative;
+    left: 10%;
+}
+.left30{
+    position: relative;
+    left: 30%;
+}
+
+.left50 {
+    position: relative;
+    left: 50%;
+}
+.left60 {
+    position: relative;
+    left: 60%;
+}
+
+.self_study_message_left {
+    position: relative;
+    margin-left: 10%;
+    font-size:100%;
+    float: left;
+    width: 25%;
+}
+
+.self_study_message_right {
+    position: relative;
+    margin-left: 5%;
+    float: left;
+    width: 25%;
+}
+.self_study_button_right {
+    position: relative;
+    margin-top: 0px;
+    float: right;
+    width: 20%;
+}
+.improve_information_message {
+    position: center;
+}
+.self_study_message_bottom {
+    position: relative;
+    margin-left: 15%;
+    float: left;
+    width: 70%;
+}
+.self_study_button_bottom {
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+.self_study_button {
+    text-align: center;
+    float: left;
+    width: 100%;
+    display: none;
+}
+
+.appraise_impression {
+    position: relative;
+    margin-left: 10%;
+    float: left;
+    width: 35%;
+}
+.appraise_star {
+    position: relative;
+    margin-left: 5%;
+    float: left;
+    width: 50%;
+}
+
+.change_page {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+
+.turn_left{
+    position: relative;
+    left: -150px;
+    font-size: 24px;
+}
+.turn_0 {
+    font-size: 24px;
+}
+.checkbox {
+    font-size: 25px;
+}
+
+.expand_more {
+    position: center;
+    text-align: center;
+    color: gray;
+}
